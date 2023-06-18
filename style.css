@@ -71,7 +71,12 @@ body {
   padding: 10px;
   word-wrap: break-word;
 }
-
+.card .card-body .country-code {
+  display: flex;
+}
+.card .card-body span {
+  margin: 0 10px;
+}
 /* Responsive */
 @media screen and (max-width: 992px) {
   .card {
