@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,700&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+/* Top Bar */
+.top-bar {
+  background-color: rgb(208, 0, 0);
+  height: 80px;
+  align-items: center;
+}
+.search-box {
+  width: 60%;
+  margin: auto;
+}
+.search-box input {
+  width: 93%;
+  border-radius: 0.4rem;
+  height: 45px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+/* End Top Bar */
+/* Main Card */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.main-cards {
+  margin: 15px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.card {
+  width: 24%;
+  padding: 10px;
+  margin: 8px auto;
+}
+.card div {
+  height: 70%;
+  border-radius: 0.5rem;
+}
+.card img {
+  width: 100%;
+  height: 75%;
+}
+.card .card-body {
+  height: 25%;
+  padding: 10px;
+}
